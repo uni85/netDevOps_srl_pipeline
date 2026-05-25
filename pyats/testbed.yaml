@@ -9,8 +9,8 @@ devices:
     connections:
       cli:
         protocol: ssh
-        ip: PUT_YOUR_CURRENT_LIVE_PINGGY_HOST_HERE
-        port: PUT_YOUR_CURRENT_LIVE_PINGGY_PORT_HERE
+        ip: tmfhe-5-49-110-121.run.pinggy-free.link
+        port: 41421
     credentials:
       default:
         username: admin
