@@ -1,0 +1,22 @@
+﻿{
+  "interface": [
+    {
+      "name": "loopback0",
+      "description": "Automation-Generated-Loopback",
+      "admin-state": "enable",
+      "subinterface": [
+        {
+          "index": 0,
+          "admin-state": "enable",
+          "ipv4": {
+            "address": [
+              {
+                "ip-prefix": "192.168.100.1/32"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
