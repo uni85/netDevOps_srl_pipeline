@@ -1,0 +1,11 @@
+stages:
+  - validate
+
+run_pyats_tests:
+  stage: validate
+  image: python:3.11
+  before_script:
+    - pip install --upgrade pip
+    - pip install pyats genie requests
+  script:
+    - python3 pyats/verify_srl.py

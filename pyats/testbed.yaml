@@ -1,0 +1,17 @@
+testbed:
+  name: local-srl-lab
+
+devices:
+  srl1:
+    alias: srl1
+    os: sros
+    type: SR-Linux
+    connections:
+      cli:
+        protocol: ssh
+        ip: ran-vmezk.pinggy.link
+        port: 43210
+    credentials:
+      default:
+        username: admin
+        password: admin
