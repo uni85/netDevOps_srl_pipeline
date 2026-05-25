@@ -4,18 +4,13 @@
 devices:
   srl1:
     alias: srl1
-    os: sros
-    type: SR-Linux
+    os: linux
+    type: generic
     connections:
       cli:
         protocol: ssh
         ip: tmfhe-5-49-110-121.run.pinggy-free.link
         port: 41421
-        arguments:
-          # Stops pyATS from sending hidden carriage returns that confuse the Nokia CLI init
-          init_exec_commands: []
-          init_config_commands: []
-          answer_timeout: 20
     credentials:
       default:
         username: admin
