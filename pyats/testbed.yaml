@@ -1,4 +1,4 @@
-testbed:
+﻿testbed:
   name: local-srl-lab
 
 devices:
@@ -9,8 +9,8 @@ devices:
     connections:
       cli:
         protocol: ssh
-        ip: ran-vmezk.pinggy.link
-        port: 43210
+        ip: PUT_YOUR_CURRENT_LIVE_PINGGY_HOST_HERE
+        port: PUT_YOUR_CURRENT_LIVE_PINGGY_PORT_HERE
     credentials:
       default:
         username: admin
