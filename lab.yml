@@ -1,0 +1,6 @@
+﻿name: netdevops
+topology:
+  nodes:
+    srl1:
+      kind: nokia_srlinux
+      image: ghcr.io/nokia/srlinux:latest
